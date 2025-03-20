@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+        <!-- Title -->
+        <text x="450" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">AI-Powered Medical Chatbot</text>
+        <line x1="300" y1="50" x2="600" y2="50" stroke="#4682B4" stroke-width="2"></line>
+    
+        <!-- User -->
+        <rect x="400" y="60" width="100" height="40" rx="5" ry="5" fill="white" stroke="#000" stroke-width="2"></rect>
+        <text x="450" y="85" text-anchor="middle" font-family="Arial" font-size="16">User</text>
+    
+        <!-- Arrow to Web Interface -->
+        <path d="M450 100 L450 130" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"></path>
+    
+        <!-- Web Interface -->
+        <rect x="350" y="130" width="200" height="60" rx="5" ry="5" fill="white" stroke="#000" stroke-width="2"></rect>
+        <text x="450" y="155" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Web Interface</text>
+        <text x="450" y="175" text-anchor="middle" font-family="Arial" font-size="14">Flask Web Portal</text>
+    
+        <!-- Arrow to Backend Processing -->
+        <path d="M450 190 L450 230" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"></path>
+    
+        <!-- Backend Processing -->
+        <rect x="200" y="230" width="700" height="400" rx="5" ry="5" fill="white" stroke="#000" stroke-width="2"></rect>
+        <text x="450" y="255" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Backend Processing</text>
+        
+        <!-- Flask Server -->
+        <rect x="400" y="260" width="100" height="40" rx="5" ry="5" fill="#E6F3FB" stroke="#000" stroke-width="2"></rect>
+        <text x="450" y="285" text-anchor="middle" font-family="Arial" font-size="14">Flask Server</text>
+        
+        <!-- Arrows to NLP and ML Modules -->
+        <path d="M400 280 L280 320" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"></path>
+        <path d="M500 280 L620 320" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"></path>
+        
+        <!-- NLP Module -->
+        <rect x="230" y="320" width="180" height="200" rx="5" ry="5" fill="#EAFAEB" stroke="#000" stroke-width="2"></rect>
+        <text x="320" y="340" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">NLP Module</text>
+        
+        <!-- spaCy/NLTK -->
+        <rect x="250" y="350" width="140" height="30" rx="5" ry="5" fill="#D0FBDA" stroke="#000" stroke-width="2"></rect>
+        <text x="320" y="370" text-anchor="middle" font-family="Arial" font-size="14">spaCy/NLTK</text>
+        
+        <!-- Text Preprocessing -->
+        <rect x="250" y="390" width="140" height="80" rx="5" ry="5" fill="#D0FBDA" stroke="#000" stroke-width="2"></rect>
+        <text x="320" y="410" text-anchor="middle" font-family="Arial" font-size="14">Text Preprocessing</text>
+        <text x="320" y="430" text-anchor="middle" font-family="Arial" font-size="12">Tokenization</text>
+        <text x="320" y="450" text-anchor="middle" font-family="Arial" font-size="12">Lemmatization</text>
+        <text x="320" y="470" text-anchor="middle" font-family="Arial" font-size="12">Stopword Removal</text>
+        
+        <!-- Similarity Metrics -->
+        <rect x="250" y="530" width="140" height="80" rx="5" ry="5" fill="#FFEFD5" stroke="#000" stroke-width="2"></rect>
+        <text x="320" y="550" text-anchor="middle" font-family="Arial" font-size="14">Similarity Metrics</text>
+        <text x="320" y="570" text-anchor="middle" font-family="Arial" font-size="12">Jaccard, Lesk, Wu-Palmer</text>
+        
+        <!-- ML System -->
+        <rect x="520" y="320" width="180" height="180" rx="5" ry="5" fill="#F2E6FA" stroke="#000" stroke-width="2"></rect>
+        <text x="610" y="340" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">ML System</text>
+        
+        <!-- Training Pipeline & KNN Classifier -->
+        <rect x="540" y="350" width="140" height="50" rx="5" ry="5" fill="#EAD9F9" stroke="#000" stroke-width="2"></rect>
+        <text x="610" y="370" text-anchor="middle" font-family="Arial" font-size="14">Training Pipeline</text>
+        <text x="610" y="390" text-anchor="middle" font-family="Arial" font-size="12">KNN Classifier</text>
+        
+        <!-- Severity Assessment -->
+        <rect x="540" y="410" width="140" height="40" rx="5" ry="5" fill="#EAD9F9" stroke="#000" stroke-width="2"></rect>
+        <text x="610" y="435" text-anchor="middle" font-family="Arial" font-size="14">Severity Assessment</text>
+        
+        <!-- Medical Dataset -->
+        <ellipse cx="800" cy="380" rx="80" ry="30" fill="white" stroke="#000" stroke-width="2"></ellipse>
+        <text x="800" y="385" text-anchor="middle" font-family="Arial" font-size="14">Medical Dataset</text>
+        
+        <!-- Prediction Output -->
+        <rect x="550" y="550" width="140" height="40" rx="5" ry="5" fill="#FFEFD5" stroke="#000" stroke-width="2"></rect>
+        <text x="620" y="575" text-anchor="middle" font-family="Arial" font-size="14">Prediction Output</text>
+        
+        <!-- Arrow definitions -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"></polygon>
+          </marker>
+        </defs>
+    </svg>    
+</body>
+</html>
